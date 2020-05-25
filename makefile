@@ -26,4 +26,4 @@ $(TARGET): $(OBJS) $(HEADS)
   clean:
     $(RM) $(OBJS) $(TARGET)
       
-  #-include $(DEPS)
+  -include $(DEPS)
