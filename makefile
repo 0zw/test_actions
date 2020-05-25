@@ -1,6 +1,6 @@
 TARGET = app
 
-SRCS = $(shell find ./src -type f -name *.cpp)
+SRCS  = $(shell find ./src     -type f -name *.cpp)
 HEADS = $(shell find ./include -type f -name *.h)
 OBJS = $(SRCS:.cpp=.o)
 DEPS = Makefile.depend
